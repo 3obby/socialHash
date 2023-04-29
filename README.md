@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# socialHash
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+a public posting platform created for the [2023 Chainlink Spring Hackathon](https://chain.link/hackathon)
 
-Try running some of the following tasks:
+## Concept
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+- A public RSS feed/posting platform that's self-governed and permanant
+- A source of truth for users looking to get status updates from the owners of their products/services
+- Hashing a topic/identifier leads users to relevant content for discoverability
+- Data permanance protects content that is at risk on centralized platforms due to authoritarian governments, regulatory concern, or shareholder bias
+
+## Special Thanks to the Forerunners
+
+- Sergey, Steve, Thomas at [Chainlink](https://chain.link/)
+- Patrick Collins of [Cyfrin](https://www.cyfrin.io/)
+- Ari of [IC3](https://www.initc3.org/)
+- [Vitalik](https://vitalik.ca/)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
